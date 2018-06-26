@@ -1,12 +1,13 @@
-package com.daugherty.postmandemo.postmandemo;
+
+package hello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PostmanDemoApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PostmanDemoApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
